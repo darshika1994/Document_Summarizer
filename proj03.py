@@ -35,26 +35,7 @@ st.title("Chat with documents 📚")
 st.subheader("Ask questions and get answers from your documents 💬") #newline-d
 
 #new in progress
-st.markdown("""
-    <style>
-        .upload-box {
-            border: 2px dashed #bbb;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            color: #bbb;
-        }
-    </style>
-    <div class="upload-box">
-        Drag and drop files here<br><br>
-        <button>Browse files</button>
-        <p style="font-size: 12px;">Supported formats: PDF, Max size: 200MB</p>
-    </div>
-""", unsafe_allow_html=True)
 
-uploaded_file = st.file_uploader("Upload your documents", type=["pdf"])
-if uploaded_file:
-    st.success(f"Uploaded file: {uploaded_file.name}")
 
 
 #
