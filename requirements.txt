@@ -1,0 +1,16 @@
+streamlit
+langchain
+torch
+faiss-cpu
+langchain-core
+langchain-huggingface
+langchain-openai
+langchain-ollama
+langchain-community
+python-dotenv
+langchain-core
+langchain-ollama
+langchain-huggingface
+langchain-openai
+langchain-community
+# Add other required libraries here
