@@ -6,11 +6,15 @@ langchain-core
 langchain-huggingface
 langchain-openai
 langchain-ollama
-langchain-community
 python-dotenv
-langchain-core
-langchain-ollama
-langchain-huggingface
-langchain-openai
 langchain-community
-# Add other required libraries here
+PyPDF2
+pymupdf                  # If you're using PyMuPDF (required by PyPDFLoader)
+transformers              # For Hugging Face's transformers (e.g., GPT-2, GPT-3)
+nltk                      # If you're using NLTK for text processing
+spacy                     # For NLP (if used)
+faiss-cpu                 # FAISS for efficient similarity search
+scikit-learn              # For any machine learning tasks (if needed)
+requests                  # For making HTTP requests (if you're calling APIs)
+pytorch-lightning         # For PyTorch model management (if needed)
+
