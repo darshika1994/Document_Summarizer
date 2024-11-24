@@ -235,3 +235,4 @@ if user_query is not None and user_query != "" and uploads is not None:
 
 end = time.time()
 print("Time: ", end - start)
+
